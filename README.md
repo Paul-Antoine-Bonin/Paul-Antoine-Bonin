@@ -4,6 +4,12 @@
   <img alt="Paul-Antoine Bonin" src="assets/header-light.svg" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Paul-Antoine-Bonin/Paul-Antoine-Bonin/output/contrib-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Paul-Antoine-Bonin/Paul-Antoine-Bonin/output/contrib-light.svg">
+  <img alt="Contribution graph" src="https://raw.githubusercontent.com/Paul-Antoine-Bonin/Paul-Antoine-Bonin/output/contrib-light.svg" width="100%">
+</picture>
+
 <p>
   <a href="https://www.linkedin.com/in/paul-antoine-bonin-4ba6472a2/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a>
   <a href="mailto:paulantoinebonin@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-1A7F64?style=flat-square"></a>
