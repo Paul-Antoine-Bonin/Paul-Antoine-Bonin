@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="t">
+<title id="t">Paul-Antoine Bonin</title>
+<defs>
+<linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#3FB98F" stop-opacity="0.22"/>
+<stop offset="1" stop-color="#3FB98F" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<style>
+.line { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 2.6s cubic-bezier(.4,0,.2,1) .3s forwards; }
+.area { opacity: 0; animation: fade 1.2s ease-out 2.2s forwards; }
+.dot { opacity: 0; animation: fade .4s ease-out 2.8s forwards; }
+.ring { opacity: 0; transform-origin: 860.0px 63.8px; animation: pulse 2.4s ease-out 3s infinite; }
+.txt { opacity: 0; animation: rise .9s ease-out forwards; }
+.d1 { animation-delay: .1s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .9s; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes fade { to { opacity: 1; } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes pulse { 0% { opacity: .6; transform: scale(1); } 100% { opacity: 0; transform: scale(3.2); } }
+@media (prefers-reduced-motion: reduce) {
+  .line, .area, .dot, .txt { animation: none; opacity: 1; stroke-dashoffset: 0; }
+  .ring { display: none; }
+}
+</style>
+<g stroke="#3D444D" stroke-width="1" stroke-dasharray="2 6">
+<line x1="20" y1="60" x2="880" y2="60"/>
+<line x1="20" y1="120" x2="880" y2="120"/>
+<line x1="20" y1="180" x2="880" y2="180"/>
+</g>
+<path class="area" d="M20.0 207.4 L26.0 208.7 L32.1 208.0 L38.1 207.2 L44.2 205.2 L50.2 205.1 L56.3 208.2 L62.3 209.1 L68.3 211.3 L74.4 211.3 L80.4 211.6 L86.5 211.4 L92.5 206.6 L98.6 208.9 L104.6 209.9 L110.6 210.7 L116.7 205.8 L122.7 201.6 L128.8 200.3 L134.8 200.3 L140.9 202.3 L146.9 203.0 L152.9 205.2 L159.0 203.8 L165.0 205.2 L171.1 206.6 L177.1 204.9 L183.2 210.1 L189.2 211.1 L195.3 213.8 L201.3 210.8 L207.3 208.0 L213.4 206.9 L219.4 206.6 L225.5 208.5 L231.5 208.9 L237.6 207.2 L243.6 204.3 L249.6 203.2 L255.7 207.5 L261.7 204.9 L267.8 205.9 L273.8 207.4 L279.9 202.6 L285.9 203.5 L291.9 208.1 L298.0 201.5 L304.0 201.3 L310.1 201.9 L316.1 200.1 L322.2 202.8 L328.2 203.2 L334.2 199.0 L340.3 203.0 L346.3 205.8 L352.4 209.0 L358.4 213.4 L364.5 213.4 L370.5 212.5 L376.5 207.0 L382.6 208.9 L388.6 206.3 L394.7 204.7 L400.7 200.5 L406.8 198.1 L412.8 197.6 L418.8 203.6 L424.9 196.8 L430.9 193.1 L437.0 196.2 L443.0 203.2 L449.1 205.8 L455.1 198.8 L461.2 190.7 L467.2 194.7 L473.2 193.9 L479.3 191.7 L485.3 197.8 L491.4 203.1 L497.4 203.7 L503.5 204.1 L509.5 204.9 L515.5 209.8 L521.6 209.6 L527.6 208.6 L533.7 207.5 L539.7 197.8 L545.8 200.7 L551.8 201.2 L557.8 199.4 L563.9 187.4 L569.9 182.3 L576.0 183.5 L582.0 173.1 L588.1 170.5 L594.1 172.8 L600.1 164.4 L606.2 169.0 L612.2 167.8 L618.3 163.2 L624.3 160.8 L630.4 159.5 L636.4 155.5 L642.4 156.0 L648.5 148.0 L654.5 141.8 L660.6 142.4 L666.6 137.8 L672.7 129.4 L678.7 129.8 L684.7 131.9 L690.8 124.5 L696.8 113.6 L702.9 109.6 L708.9 105.7 L715.0 101.2 L721.0 104.7 L727.1 95.9 L733.1 98.7 L739.1 88.8 L745.2 82.4 L751.2 83.2 L757.3 85.8 L763.3 86.3 L769.4 83.9 L775.4 80.6 L781.4 77.6 L787.5 76.9 L793.5 72.4 L799.6 70.7 L805.6 70.5 L811.7 67.4 L817.7 68.4 L823.7 68.2 L829.8 75.1 L835.8 72.5 L841.9 66.7 L847.9 62.2 L854.0 60.4 L860.0 63.8 L860.0 240 L20.0 240 Z" fill="url(#fill)"/>
+<path class="line" d="M20.0 207.4 L26.0 208.7 L32.1 208.0 L38.1 207.2 L44.2 205.2 L50.2 205.1 L56.3 208.2 L62.3 209.1 L68.3 211.3 L74.4 211.3 L80.4 211.6 L86.5 211.4 L92.5 206.6 L98.6 208.9 L104.6 209.9 L110.6 210.7 L116.7 205.8 L122.7 201.6 L128.8 200.3 L134.8 200.3 L140.9 202.3 L146.9 203.0 L152.9 205.2 L159.0 203.8 L165.0 205.2 L171.1 206.6 L177.1 204.9 L183.2 210.1 L189.2 211.1 L195.3 213.8 L201.3 210.8 L207.3 208.0 L213.4 206.9 L219.4 206.6 L225.5 208.5 L231.5 208.9 L237.6 207.2 L243.6 204.3 L249.6 203.2 L255.7 207.5 L261.7 204.9 L267.8 205.9 L273.8 207.4 L279.9 202.6 L285.9 203.5 L291.9 208.1 L298.0 201.5 L304.0 201.3 L310.1 201.9 L316.1 200.1 L322.2 202.8 L328.2 203.2 L334.2 199.0 L340.3 203.0 L346.3 205.8 L352.4 209.0 L358.4 213.4 L364.5 213.4 L370.5 212.5 L376.5 207.0 L382.6 208.9 L388.6 206.3 L394.7 204.7 L400.7 200.5 L406.8 198.1 L412.8 197.6 L418.8 203.6 L424.9 196.8 L430.9 193.1 L437.0 196.2 L443.0 203.2 L449.1 205.8 L455.1 198.8 L461.2 190.7 L467.2 194.7 L473.2 193.9 L479.3 191.7 L485.3 197.8 L491.4 203.1 L497.4 203.7 L503.5 204.1 L509.5 204.9 L515.5 209.8 L521.6 209.6 L527.6 208.6 L533.7 207.5 L539.7 197.8 L545.8 200.7 L551.8 201.2 L557.8 199.4 L563.9 187.4 L569.9 182.3 L576.0 183.5 L582.0 173.1 L588.1 170.5 L594.1 172.8 L600.1 164.4 L606.2 169.0 L612.2 167.8 L618.3 163.2 L624.3 160.8 L630.4 159.5 L636.4 155.5 L642.4 156.0 L648.5 148.0 L654.5 141.8 L660.6 142.4 L666.6 137.8 L672.7 129.4 L678.7 129.8 L684.7 131.9 L690.8 124.5 L696.8 113.6 L702.9 109.6 L708.9 105.7 L715.0 101.2 L721.0 104.7 L727.1 95.9 L733.1 98.7 L739.1 88.8 L745.2 82.4 L751.2 83.2 L757.3 85.8 L763.3 86.3 L769.4 83.9 L775.4 80.6 L781.4 77.6 L787.5 76.9 L793.5 72.4 L799.6 70.7 L805.6 70.5 L811.7 67.4 L817.7 68.4 L823.7 68.2 L829.8 75.1 L835.8 72.5 L841.9 66.7 L847.9 62.2 L854.0 60.4 L860.0 63.8" pathLength="1" fill="none" stroke="#3FB98F" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle class="ring" cx="860.0" cy="63.8" r="4" fill="none" stroke="#3FB98F" stroke-width="1.5"/>
+<circle class="dot" cx="860.0" cy="63.8" r="4" fill="#3FB98F"/>
+<text class="txt d1" x="40" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#F0F6FC" letter-spacing="-1">Paul-Antoine Bonin</text>
+<text class="txt d2" x="42" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#9198A1">Maths, data and finance at Mines Paris PSL × Albert School</text>
+<text class="txt d3" x="42" y="166" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#3FB98F">quant research  ·  ML systems  ·  formal maths</text>
+</svg>
