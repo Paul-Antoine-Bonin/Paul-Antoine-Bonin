@@ -41,6 +41,7 @@ Aiming at quantitative trading and exotic derivatives structuring.
 - [weekend-effect](https://github.com/Paul-Antoine-Bonin/weekend-effect): calendar anomalies, and why most are not real
 - [hedging-words](https://github.com/Paul-Antoine-Bonin/hedging-words): hedging language in corporate communication
 - [fx-rates-journal](https://github.com/Paul-Antoine-Bonin/fx-rates-journal): daily ECB euro reference rates as tidy CSV
+- [battery-dispatch](https://github.com/Paul-Antoine-Bonin/battery-dispatch): trading a battery on the Portuguese day-ahead power market
 
 ### ML and data
 
