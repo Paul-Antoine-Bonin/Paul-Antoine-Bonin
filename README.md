@@ -17,7 +17,18 @@
 
 Student at Mines Paris PSL × Albert School (maths, data, finance).
 Fixed-term contract at Meta. Previously data analyst intern at BNP Paribas, Lisbon.
-Aiming at quantitative trading and exotic derivatives structuring.
+Aiming at quantitative trading and ML engineering.
+
+<p>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3APaul-Antoine-Bonin+org%3Afacebookresearch"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/org-facebookresearch-dark.svg">
+    <img alt="@facebookresearch" src="assets/org-facebookresearch-light.svg" height="44">
+  </picture></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3APaul-Antoine-Bonin+org%3Ahuggingface"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/org-huggingface-dark.svg">
+    <img alt="@huggingface" src="assets/org-huggingface-light.svg" height="44">
+  </picture></a>
+</p>
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -26,7 +37,6 @@ Aiming at quantitative trading and exotic derivatives structuring.
   <img alt="Matplotlib" src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square">
   <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white">
-  <img alt="OR-Tools" src="https://img.shields.io/badge/OR--Tools-4285F4?style=flat-square&logo=google&logoColor=white">
   <img alt="Lean 4" src="https://img.shields.io/badge/Lean_4-4A4A4A?style=flat-square">
   <img alt="VBA" src="https://img.shields.io/badge/VBA-217346?style=flat-square&logo=microsoftexcel&logoColor=white">
 </p>
